@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3>Adverts Board</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 mt-2 mb-2" *ngFor="let adItem of adverts">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{adItem.theme}}</h5>
+                    <p class="card-text">{{adItem.content}}</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer">
+                    <div class="d-flex justify-content-between">
+                        <div class="">
+                            <div class="d-flex flex-row mb-2">
+                                <i class="material-icons">create</i>
+                                <span>User Name</span>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <i class="material-icons">access_time</i>
+                                <span>{{adItem.date}}</span>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex flex-row mb-2">
+                                <span>lifetime:</span>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <i class="material-icons" style="color: red">alarm</i>
+                                <span>{{adItem.time}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
