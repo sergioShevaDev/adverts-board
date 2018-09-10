@@ -5,12 +5,12 @@
 export const environment = {
     production: false,
     firebase: {
-        apiKey: "AIzaSyAtQJrFZvJ965N5iCTA0G2_GRkHaqhmrE0",
-        authDomain: "football-league-kh.firebaseapp.com",
-        databaseURL: "https://football-league-kh.firebaseio.com",
-        projectId: "football-league-kh",
-        storageBucket: "",
-        messagingSenderId: "979730468802"
+        apiKey: "YOUR_CREDENTIALS_HERE",
+        authDomain: "YOUR_CREDENTIALS_HERE",
+        databaseURL: "YOUR_CREDENTIALS_HERE",
+        projectId: "YOUR_CREDENTIALS_HERE",
+        storageBucket: "YOUR_CREDENTIALS_HERE",
+        messagingSenderId: "YOUR_CREDENTIALS_HERE"
     }
 };
 
